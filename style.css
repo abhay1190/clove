@@ -1,0 +1,1085 @@
+body {
+    overflow: auto;
+}
+
+.Nav {
+    width: 1290px;
+    height: 100px;
+    background-color: rgb(245, 222, 158);
+    margin: -6px;
+    padding-left: 40px;
+    padding-right: 16px;
+    line-height: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.NavHeading {
+    height: 80px;
+    width: 150px;
+    margin-right: 2px;
+    margin-left: 5px;
+}
+
+.NavHeading h1 {
+    font-size: 3rem;
+    color: rgb(248, 105, 10);
+}
+
+.NavHeading h3 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+.NavMid {
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 57px;
+    width: 1800px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.NavRight {
+    margin-left: -30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#Treatment {
+    height: 20px;
+    width: 20px;
+    margin-top: -2px;
+    background-color: rgb(245, 222, 158);
+    overflow: scroll;
+}
+
+#plans {
+    height: 20px;
+    width: 20px;
+    margin-top: -2px;
+    background-color: rgb(245, 222, 158);
+    overflow: scroll;
+}
+
+#Book {
+
+    width: 299px;
+    height: 69px;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 550;
+    border: 1px solid rgba(222, 111, 13, 1);
+    border-radius: 50px;
+    background-color: rgba(248, 111, 63, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.book {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 5px;
+    left: 350px;
+    top: 120px;
+    border: 1px dotted #8f8d8d;
+    border-radius: 20px;
+    width: 780px;
+    height: 500px;
+    overflow: auto;
+    background: rgba(255, 250, 245, 1);
+    line-height: 20px;
+
+}
+
+.booking-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.booking-content input {
+    border: 1px solid;
+    border-radius: 50px;
+    width: 300px;
+    height: 42px;
+    margin: 10px;
+}
+
+.BookAppointment label {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    background-color: white;
+}
+
+#fname {
+    margin-left: -70px;
+    /* border:none; */
+}
+
+.BookAppointment h3 {
+    color: rgba(248, 148, 63, 1);
+}
+
+#Company {
+    border: 1px solid;
+    border-radius: 50px;
+    width: 300px;
+    height: 42px;
+    margin: 10px;
+}
+
+#enterotp {
+    border: 1px solid;
+    border-radius: 50px 0px 0px 50px;
+    width: 230px;
+    height: 42px;
+    margin: 10px -10px 10px 10px;
+}
+
+.verify {
+    border: 1px solid rgba(248, 148, 63, 1);
+    border-radius: 0px 50px 50px 0px;
+    width: 80px;
+    height: 46px;
+    background-color: rgba(248, 148, 63, 1);
+
+}
+
+.next {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 5px;
+    left: 350px;
+    top: 120px;
+    border: 1px dotted #8f8d8d;
+    border-radius: 20px;
+    width: 780px;
+    height: 500px;
+    overflow: auto;
+    background: rgba(255, 250, 245, 1);
+    line-height: 20px;
+}
+
+.next-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+}
+
+.next-content input {
+    border: 1px solid;
+    border-radius: 50px;
+    width: 300px;
+    height: 42px;
+    margin: 10px;
+}
+
+.next-content h3 {
+    color: rgba(248, 148, 63, 1);
+}
+
+.sel {
+    border: 1px solid;
+    border-radius: 50px;
+    width: 300px;
+    height: 42px;
+    margin: 10px;
+}
+
+#checkbox {
+    margin: 0px;
+    height: 10px;
+    width: 10px;
+}
+
+.step2sub {
+    width: 200px;
+    height: 40px;
+    margin: 30px;
+    margin-left: 280px;
+    border: 1px solid rgba(248, 148, 63, 1);
+    border-radius: 50px;
+    background-color: rgba(248, 148, 63, 1);
+}
+
+#Next {
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    margin-left: 300px;
+    border: 1px solid rgba(248, 148, 63, 1);
+    border-radius: 50px;
+    background-color: rgba(248, 148, 63, 1);
+}
+
+#Help {
+    margin-left: 5px;
+    width: 175px;
+    height: (69px)px;
+    padding: 18px 20px 18px 20px;
+    border-radius: 70px 70px 70px 70px;
+    border: 2px solid rgba(251, 190, 156, 1);
+    background: rgba(255, 239, 226, 1);
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    text-align: left;
+
+}
+
+.help {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 5px;
+    left: 850px;
+    top: 120px;
+    border: 1px dotted #8f8d8d;
+    border-radius: 20px;
+    width: 480px;
+    height: 400px;
+    overflow: auto;
+    background: rgba(255, 250, 245, 1);
+
+}
+
+.help-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+}
+
+.full-detail {
+    height: 57px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.HelpText {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.helpimage {
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+hr {
+    width: 330px;
+    height: 0px;
+    border: 2px solid rgba(255, 197, 145, 1)
+}
+
+/* for the main body */
+main {
+    margin-top: 5px;
+}
+
+.Ad {
+    width: 1349px;
+    height: 400px;
+    padding: 0px;
+    margin-left: -9px;
+}
+
+.ads {
+    width: 1349px;
+    height: 400px;
+    padding: 0px;
+    position: relative;
+    margin: auto;
+}
+
+.adscnt {
+    width: 1355px;
+    height: 400px;
+    top: 0px;
+    margin-left: -7px;
+    background-color: rgba(181, 193, 166, 1);
+    position: absolute;
+    display: none;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 240px 60px 150px;
+    line-height: 0.8px;
+    position: absolute;
+    font-size: larger;
+    width: 940px;
+    height: 311px;
+    left: 20px;
+    top: calc(50% - 301px/2 - 0.5px);
+    backdrop-filter: blur(0.5px);
+}
+/* Note: backdrop-filter has minimal browser support */
+
+.Buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 26.2761px 55.1799px;
+    width: 200px;
+    height: 22px;
+    color: rgba(255, 255, 255, 1);
+    background: #F8943F;
+    border: 1px solid #DE6F0D;
+    border-radius: 50px;
+}
+
+.right {
+    position: absolute;
+    top: 105px;
+    bottom: 0px;
+    left: 735px;
+}
+
+.right img {
+    height: 295px;
+    width: 255px;
+}
+
+.Sleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 240px 60px 150px;
+    line-height: 35px;
+    position: absolute;
+    font-size: 40px;
+    width: 900px;
+    height: 311px;
+    left: 0px;
+    top: calc(50% - 301px/2 - 0.5px);
+    backdrop-filter: blur(0.5px);
+}
+
+.csdn {
+    display:inline-flex;
+     color: rgba(248, 148, 63, 1);
+    }
+
+.Sleft p {
+    font-size: 30px;
+    line-height: 10px;
+}
+#BookI{
+    height: 50px;
+    width: 200px;
+    border: 2px solid #DE6F0D;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: #DE6F0D;
+    color: #fefefe;
+}
+
+.Sright {
+    position: absolute;
+    top: 105px;
+    bottom: 0px;
+    left: 945px;
+}
+
+.Sright img {
+    height: 295px;
+    width: 255px;
+}
+
+/* The Next AD area  */
+.Nextad {
+    width: 1307px;
+    height: 112px;
+    top: 842px;
+    margin-left: -27px;
+    padding-left: 60px;
+    background-color: rgb(245, 242, 242);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+.NLad {
+    width: 350px;
+    margin-left: 50px;
+
+}
+
+#Location {
+    margin-left: 90px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+.gtext {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selbtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.selbtn button {
+    margin: 10px 90px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid rgba(222, 111, 13, 1);
+    border-radius: 30px;
+    background-color: rgba(248, 148, 63, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.NRad {
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.NRad img {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.vt {
+    border: 1px solid rgba(248, 141, 63, 1);
+    margin: 10px;
+    margin-left: 70px;
+}
+
+/* for the treatment area  */
+.treatph {
+    width: 1348px;
+    height: 756px;
+    top: 1124px;
+    margin-left: -8px;
+    gap: 10px;
+    background: rgba(255, 249, 244, 1);
+}
+
+.treattext {
+    width: 1348px;
+    height: 104px;
+    text-align: center;
+    font-size: larger;
+    margin-top: 40px;
+}
+
+.treatarph {
+    width: 155px;
+    height: 194px;
+    align-items: center;
+    border: 2px solid rgb(32, 31, 31);
+    margin: 10px;
+    padding: 20px;
+}
+
+.treatarph img {
+    padding: 30px 30px 20px 30px;
+    height: 100px;
+    width: 70px;
+}
+
+.trphtext {
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.category {
+    width: 1330px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.expl {
+    text-align: center;
+}
+
+.expl img {
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.guide {
+    width: 1348px;
+    height: 506px;
+    margin-left: -9px;
+    top: 2150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.guidel {
+    width: 460px;
+    height: 496px;
+    top: 2150px;
+    margin: 10px 10px 10px 30px;
+    padding-left: 50px;
+    display: flex;
+    line-height: 20px;
+    flex-direction: column;
+    background: rgba(255, 249, 244, 1);
+}
+
+.guidel input {
+    margin: 0px 10px 10px 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 0.7em;
+}
+
+.guidel h1 {
+    line-height: 2.2rem;
+    font-size: 3rem;
+}
+
+.guidel button {
+    height: 40px;
+    margin-left: 12px;
+    width: 250px;
+    border: 1px solid rgba(222, 111, 13, 1);
+    border-radius: 30px;
+    background: rgba(248, 148, 63, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.guidel label {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    background-color: white;
+}
+
+#name {
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+#Concern {
+    margin-left: -15px;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 250px;
+    height: 42px;
+    margin: 10px;
+}
+
+.guider {
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(251, 245, 255, 1);
+}
+
+.topg {
+    display: flex;
+    flex-direction: row;
+}
+
+.topgl {
+    display: flex;
+    flex-direction: column;
+}
+
+.topgl h1 {
+    margin-top: 50px;
+    line-height: 0.1em;
+}
+
+.topgl h2 {
+    line-height: 0.1rem;
+}
+
+.topgl p {
+    margin-top: 60px;
+}
+
+.topgr {
+    height: 200px;
+    width: 200px;
+}
+
+.topgr img {
+    height: 200px;
+    width: 200px;
+}
+
+.botg {
+    display: flex;
+    flex-direction: row;
+}
+
+.botgl {
+    width: 200px;
+    background: rgba(245, 248, 255, 1);
+}
+
+.botgl img {
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.botgl p {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.botgr {
+    width: 200px;
+    margin-left: 20px;
+    padding-left: 10px;
+    background: rgba(225, 242, 238, 1);
+}
+
+.botgr p {
+    margin-top: 20px;
+}
+
+.botgr img {
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.intheirownwords {
+    width: 1349px;
+    height: 394px;
+    top: 3056px;
+    margin-left: -9px;
+    padding: 8px;
+}
+
+.intheirownwords p {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.OwnPT {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Own {
+    width: 348px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.Ownphoto img {
+    width: 200px;
+    height: 300px;
+}
+
+.Unmatched {
+    width: 1349px;
+    height: 387px;
+    top: 3940px;
+    margin-left: -9px;
+    background-color: rgba(255, 249, 244, 1);
+    display: flex;
+    flex-direction: row;
+}
+
+.UnL {
+    width: Hug (640px)px;
+    height: Hug (577px)px;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.UnLs {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.UnLs img {
+    margin-right: 20px;
+    height: 30px;
+    width: 40px;
+}
+
+.UnR {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.phot {
+    margin: 20px;
+}
+
+.photT img {
+    margin-top: 50px;
+    height: 200px;
+    width: 230px;
+}
+
+.narrowbox {
+    width: 1349px;
+    height: 60px;
+    margin-left: -9px;
+    top: 4637px;
+    background: rgba(255, 239, 226, 1);
+    display: flex;
+    flex-direction: row;
+}
+
+.narrowboxcnt {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ph {
+    padding-left: 6px;
+}
+
+.ph img {
+    margin-right: 2px;
+    height: 20px;
+    width: 20px;
+}
+
+.images {
+    width: 1349px;
+    height: 550px;
+    margin-left: -9px;
+}
+.imgcnt{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    position: absolute;
+}
+.navimgbtn{
+    text-align: end;
+    margin-right: 100px;  
+    margin-top: 15px;
+}
+.navimgbtn button{
+    height: 30px;
+    width: 30px;
+    background-color: #DE6F0D;
+    border: 1px solid #DE6F0D;
+    border-radius: 20px;
+}
+.journey {
+    width: 1349px;
+    height: 476px;
+    margin-left: -9px;
+    background: rgba(255, 249, 244, 1);
+}
+
+.journey h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.journey p {
+    text-align: center;
+}
+
+.journeycnt {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.journeycnts {
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.jrnyimg img {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+.jrnytxt {
+    margin-left: 10px;
+}
+
+.jrnytxt p {
+    margin-top: 10px;
+    margin-left: -90px;
+    font-size: 10px;
+}
+
+.expm {
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.expm img {
+    height: 20px;
+    width: 20px;
+}
+
+.reg {
+    width: 1349px;
+    height: 718px;
+    margin-left: -9px;
+    padding: 20px;
+    position: relative;
+}
+
+.regimg {
+    width: 1290px;
+    height: 550px;
+    margin-left: 65px;
+    border-radius: 30px 0px 0px 0px;
+    justify-content: center;
+    clear: both;
+    opacity: 0px;
+    position: absolute;
+}
+
+.regimg img {
+    width: 1190px;
+    height: 500px;
+}
+
+.regad {
+    width: 960px;
+    height: 323px;
+    margin-top: -135px;
+    margin-left: 190px;
+    /* padding: 40px 60px 40px 60px; */
+    border-radius: 20px 0px 0px 0px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 0px;
+    position: absolute;
+    top: 570px;
+}
+
+.regad h1 {
+    line-height: 0.8em;
+}
+
+.diffclr {
+    color: #DE6F0D;
+}
+
+.regad h6 {
+    margin-left: 340px;
+}
+
+.regad img {
+    margin-left: 10px;
+    width: 920px;
+    height: 42px;
+}
+
+.booknm {
+    height: 40px;
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 20px;
+    border: 1px solid rgba(222, 111, 13, 1);
+    border-radius: 50px;
+    background-color: rgba(248, 148, 63, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.Bey {
+    width: 1349px;
+    height: 546px;
+    margin-left: -9px;
+}
+
+.bey {
+    width: 1320px;
+    height: 486px;
+    padding: 10px;
+    border-radius: 30px 0px 0px 0px;
+    background: rgba(255, 249, 244, 1);
+    justify-content: center;
+    text-align: center;
+}
+
+.bey h2 {
+    margin-top: 20px;
+}
+
+.beycnt {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.cnt {
+    width: Fixed (300px)px;
+    height: Fixed (233px)px;
+    margin-top: 50px;
+    padding: 40px 30px 40px 30px;
+    gap: 24px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.faq {
+    width: 1349px;
+    height: 324px;
+    margin-left: -9px;
+    padding-left: 70px;
+}
+
+.faq h1 {
+    margin: 1rem;
+}
+
+.quesans {
+    /* margin: 0px 50px; */
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.questions {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    width: 450px;
+    margin: 10px;
+    padding: 0.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions i {
+    font-size: 1rem;
+}
+
+.ans {
+    width: 400px;
+    height: 30px;
+    padding: 1rem;
+    background-color: white;
+    overflow: hidden;
+    display: none;
+}
+
+.ans p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.FAQ.active {
+    border: none;
+}
+
+.footers {
+    width: 1349px;
+    height: 600px;
+    margin: 0px;
+    margin-left: -9px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(61, 32, 16, 1);
+    color: rgba(255, 239, 226, 1);
+
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.fotbox {
+    margin: 20px;
+}
+
+.bot {
+    margin: 0px;
+    text-align: center;
+}
+
+.bot h1 {
+    font-size: 10rem;
+    color: rgb(248, 105, 10);
+    line-height: 0px;
+}
+
+.bot h3 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    line-height: 2px;
+}
+
+.msg {
+    position: absolute;
+    margin-left: 1300px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
